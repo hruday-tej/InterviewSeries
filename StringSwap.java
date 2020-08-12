@@ -4,6 +4,26 @@
 
 //next is 2 pointer
 
+// use String buffer 
+
+
+/*
+import java.lang.*; 
+  
+public class Test { 
+  
+    public static void main(String args[]) 
+    { 
+        StringBuffer sbf = new StringBuffer("Geeksforgeeks!"); 
+        System.out.println("String buffer = " + sbf); 
+          
+        // Here it reverses the string buffer 
+        sbf.reverse(); 
+        System.out.println("String buffer after reversing = " + sbf); 
+    } 
+} */
+
+
 class Solution {
     public void reverseString(char[] s) {
         
