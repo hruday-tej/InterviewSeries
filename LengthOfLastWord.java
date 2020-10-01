@@ -1,8 +1,6 @@
 class Solution {
     public int lengthOfLastWord(String s) {
-        int count = 0;
-        int i=0;
-        int n = s.length();
+        int count = 0,i=0,n=s.length();
         while(i<n){
             if(s.charAt(i) != ' '){
                 count++;
@@ -11,12 +9,10 @@ class Solution {
             else{
                 // count = 0;
                 while(i<n && s.charAt(i)==' ')i++;
-                if(i==n){
+                if(i==n)
                     return count;
-                }
-                else{
+                else
                     count = 0;
-                }
             }
             
         }
